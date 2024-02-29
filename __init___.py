@@ -1,5 +1,5 @@
 # __init__.py
-from . import log_formatter
+import log_formatter
 huluwa_art = [
     [
         "   ____   ",
@@ -86,4 +86,3 @@ def print_log():
 		for line in huluwa:
 			print(line)
 		print()  # 打印一个空行分隔每个葫芦娃的形象
-    setup_logging()
